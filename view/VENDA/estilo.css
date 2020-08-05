@@ -1,0 +1,49 @@
+
+
+
+.linhasTDCabecalho{
+    font-family:freemono; 
+    font-size:14px;
+    padding-bottom: 5px;
+}
+
+.pedido{
+    font-family:freemono; 
+    font-size:16px;
+    padding-bottom: 5px;
+    font-weight:bold;
+}
+
+.linhasTDitems{
+    font-family:freemono;    
+    font-size:14px; border-top:1px dashed ;
+}
+
+.titulos{
+    font-family:freemono;    
+    font-size:12px; border-top:1px;
+    font-weight:bold;
+}
+.table{
+    font-size:10px;
+    width:100%;
+}
+
+.subtotal{
+    font-family:freemono;    
+    font-size:18px;
+    font-weight:bold;  
+}
+
+.totalParcelas{
+    font-family:freemono;    
+    font-size:12px;
+    font-weight:bold;  
+}
+
+.parcelas{
+    font-family:freemono;    
+    font-size:12px; border-top:1px dashed ;
+    alignment-adjust: central;
+
+}

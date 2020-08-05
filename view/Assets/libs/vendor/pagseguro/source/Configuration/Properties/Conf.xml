@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <environment>sandbox</environment><!-- sandbox or production -->
+    <credentials>
+        <account>
+            <email>centralmetadevendas@gmail.com</email>
+            <production>
+                <token>your_production_token</token>
+            </production>
+            <sandbox>
+                <token>B726F9EF02B342A2B3A1D6280DF8F7BD</token>
+            </sandbox>
+        </account>
+        <application>
+            <production>
+                <appId>your_production_application_id</appId>
+                <appKey>your_production_application_key</appKey>
+            </production>
+            <sandbox>
+                <appId>app4458503438</appId>
+                <appKey>F6E012C5B4B4D7D4441A0FB108FA4154</appKey>
+            </sandbox>
+        </application>
+    </credentials>
+    <charset>UTF-8</charset>
+    <log>
+        <active>false</active>
+        <location>/</location>
+    </log>
+</config>

@@ -1,0 +1,64 @@
+.listagem_vendas{
+    font-family: freemono;
+    font-size: 11px;   
+    font-weight:bold;
+}
+.linhaTDCabecalho{    
+    font-family: freemono;
+    font-size: 14px;
+    padding-bottom:5px;
+}
+.pedido{
+    font-family: freemono;
+    font-size: 14px;
+    padding-bottom:5px;
+    font-weight:bold;
+}
+.linhas_itens{
+    font-family: freemono;
+    font-size: 12px;
+    padding-bottom:3px; 
+    border-top:1px dashed;
+}
+
+.titulos{
+    font-family: freemono;
+    font-size: 12px;
+    border-top:1px;     
+    font-weight:bold;
+     
+}
+.cabecalho_venda_titulo{
+    font-family: freemono;
+    font-size: 18px;
+    border-top:1px;     
+    font-weight:bold;
+}
+
+.cabecalho_venda_linhas{
+    font-family: freemono;
+    font-size: 13px;   
+}
+
+
+.tabela{
+    font-size: 10px;
+    width: 100%;
+}
+.subtotal{
+    font-family: freemono;
+    font-size: 14px;   
+    font-weight:bold;
+}
+.total_parcelas{
+
+    font-family: freemono;
+    font-size: 12px;
+    font-weight: bold;
+}
+.parcelas{
+    font-family: freemono;
+    font-size: 12px;
+    border-top:1px dashed; 
+    alignment-adjust: central;
+}

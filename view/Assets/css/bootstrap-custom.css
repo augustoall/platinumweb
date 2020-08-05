@@ -1,0 +1,50 @@
+#resultado{
+    background: #fff;
+    display: none;
+    width: 100%;
+    display: absolute;   
+    border-bottom: 1px solid #CFD8DC; 
+    border-right:1px solid  #CFD8DC; 
+    border-left:1px solid  #CFD8DC;  
+    border-top: 1px solid  #CFD8DC;                
+    font-weight: bold;
+
+}
+
+#resultado .item{
+    padding-left: 20px;
+    font-family: Helvetica;
+    border-bottom: 1px solid  #CFD8DC; 
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+#resultado item:last-child{
+    border-bottom: 0px;                
+}
+
+
+#resultado item:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.tira-margin-col{
+    margin: 0;
+    padding: 0;
+}
+
+.alert-info{
+    background-color: #eee;
+    border-color: #ccc;
+    color: #a0a0a0;
+    padding: 8px;
+    text-align: center;
+}
+
+.alert-warning{
+    padding: 0px;
+    text-align: center;
+}

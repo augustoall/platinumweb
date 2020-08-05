@@ -1,0 +1,1 @@
+UPDATE permissoes SET per_nivel = 'DIRETOR' 
