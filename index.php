@@ -1,8 +1,10 @@
 <?php
-if ($_POST) {
-
     ob_start();
     session_start();
+
+if ($_POST) {
+//    ob_start();
+//    session_start();
 
     $_SESSION["MENSAGEM"] = "";
 
