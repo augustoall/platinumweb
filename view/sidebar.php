@@ -68,6 +68,24 @@
                     <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
                 </ul>
             </li>
+            
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-floppy-o"></i>
+                    <span>Cadastros Produtos</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="CATEGORIAS/CadastraCategorias.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Categorias</a></li>
+                    <li><a href="FORNECEDOR/CadastraFornecedor.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Fornecedores</a></li>
+                    <li><a href="PRODUTOS/CadastraProdutos.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Produtos</a></li>
+                    <li><a href="PRODUTOS/CarregarProdutosExel.php" target="Frame1"><i class="fa fa-caret-right"></i>Cadastro Produtos Exel</a></li>	
+                    <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
+                </ul>
+            </li>
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-search"></i>
