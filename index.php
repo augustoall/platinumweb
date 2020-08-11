@@ -213,7 +213,7 @@ if ($_POST) {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="icon" href="favicon.ico">
-        <title>Login Central Meta de Vendas</title>
+        <title>Login Platinum Web</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="view/Assets/css/bootstrap.min.css" rel="stylesheet"> 
         <link rel="stylesheet" href="view/Assets/css/AdminLTE.min.css">
