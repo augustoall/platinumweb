@@ -319,7 +319,7 @@
 
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-address-card-o"></i>
+                    <i class="fa fa-floppy-o"></i>
                     <span>Pessoa</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
