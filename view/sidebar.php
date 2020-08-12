@@ -314,6 +314,61 @@
             </li>   
 
 <!---------------------------------------------- -->
+            <li class="header">Contabilidade</li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                    <span>Plano de Contas</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="CATEGORIAS/CadastraCategorias.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Categorias</a></li>
+                    <li><a href="FORNECEDOR/CadastraFornecedor.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Fornecedores</a></li>
+                    <li><a href="PRODUTOS/CadastraProdutos.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Produtos</a></li>
+                    <li><a href="PRODUTOS/CarregarProdutosExel.php" target="Frame1"><i class="fa fa-caret-right"></i>Cadastro Produtos Exel</a></li>	
+                    <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
+                </ul>
+            </li>
+            
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                    <span>Lançamentos</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="CATEGORIAS/CadastraCategorias.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Categorias</a></li>
+                    <li><a href="FORNECEDOR/CadastraFornecedor.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Fornecedores</a></li>
+                    <li><a href="PRODUTOS/CadastraProdutos.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Produtos</a></li>
+                    <li><a href="PRODUTOS/CarregarProdutosExel.php" target="Frame1"><i class="fa fa-caret-right"></i>Cadastro Produtos Exel</a></li>	
+                    <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                    <span>Balanço</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">  			
+                    <li><a href="CLIENTES/ListaClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> de clientes</a></li>                   
+                    <li><a href="PRODUTOS/ListaProdutos.php" target="Frame1"><i class="fa fa-caret-right"></i> de produtos</a></li>
+                    <li><a href="CATEGORIAS/ListaCategorias.php" target="Frame1"><i class="fa fa-caret-right"></i> de categorias</a></li>
+                    <li><a href="FORNECEDOR/ListaFornecedor.php" target="Frame1"><i class="fa fa-caret-right"></i> de fornecedores</a></li>
+                    <li><a href="CHEQUES/ListaCheques.php" target="Frame1"><i class="fa fa-caret-right"></i> de Cheques</a></li>
+                    <li><a href="USUARIOS/ListaUsuarios.php" target="Frame1"><i class="fa fa-caret-right"></i> de usuários</a></li>
+                </ul>
+            </li> 
+
+<!------------------------------------------- -->
 
            <li class="header">Cadastros</li>
 
