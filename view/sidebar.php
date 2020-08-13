@@ -37,8 +37,8 @@
             </li> 
 
             <?php if ($nivel == "DIRETOR" || $nivel == "ADM") : ?>
-                
-            
+
+
                 <li>
                     <a href="PERMISSOES/VisualizarPermissao.php" target="Frame1">
                         <i class="fa fa-key"></i> <span>Permissões</span>
@@ -50,7 +50,7 @@
                     </a>
                 </li>
             <?php endif; ?>
-<!------------------------------ -->
+            <!------------------------------ -->
             <li class="header">Consultas</li>
 
             <li class="treeview">
@@ -69,7 +69,7 @@
                     <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
                 </ul>
             </li>
-            
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-search"></i>
@@ -133,7 +133,7 @@
                     <li><a href="HISTORICO_PAGAMENTO/ListaHistoricosPagamentos.php" target="Frame1"><i class="fa fa-caret-right"></i> Pagamentos - Todos</a></li>
                 </ul>
             </li>
-<!------------------------------------------- -->
+            <!------------------------------------------- -->
             <li class="header">Vendas</li>
 
             <li class="treeview">
@@ -152,7 +152,7 @@
                     <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
                 </ul>
             </li>
-            
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-floppy-o"></i>
@@ -201,7 +201,7 @@
                 </ul>
             </li>
 
-<!---------------------------------------------- -->
+            <!---------------------------------------------- -->
 
             <li class="header">Logististica de Materiais</li>
 
@@ -221,7 +221,7 @@
                     <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
                 </ul>
             </li>
-            
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-floppy-o"></i>
@@ -257,9 +257,9 @@
                 </ul>
             </li>   
 
-<!---------------------------------------------- -->
+            <!---------------------------------------------- -->
 
-           <li class="header">Financeiro</li>
+            <li class="header">Financeiro</li>
 
             <li class="treeview">
                 <a href="#">
@@ -277,7 +277,7 @@
                     <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
                 </ul>
             </li>
-            
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-floppy-o"></i>
@@ -313,7 +313,7 @@
                 </ul>
             </li>   
 
-<!---------------------------------------------- -->
+            <!---------------------------------------------- -->
             <li class="header">Contabilidade</li>
 
             <li class="treeview">
@@ -332,7 +332,7 @@
                     <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
                 </ul>
             </li>
-            
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-search"></i>
@@ -368,9 +368,9 @@
                 </ul>
             </li> 
 
-<!------------------------------------------- -->
+            <!------------------------------------------- -->
 
-           <li class="header">Cadastros</li>
+            <li class="header">Cadastros</li>
 
             <li class="treeview">
                 <a href="#">
@@ -381,14 +381,16 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="CATEGORIAS/CadastraCategorias.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Categorias</a></li>
-                    <li><a href="FORNECEDOR/CadastraFornecedor.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Fornecedores</a></li>
-                    <li><a href="PRODUTOS/CadastraProdutos.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro de Produtos</a></li>
-                    <li><a href="PRODUTOS/CarregarProdutosExel.php" target="Frame1"><i class="fa fa-caret-right"></i>Cadastro Produtos Exel</a></li>	
-                    <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Cadastro Clientes </a></li>
+                    <li><a href="PESSOA/CadastraPessoaBase.php" target="Frame1"><i class="fa fa-caret-right"></i> Base </a></li>
+                    <li><a href="FORNECEDOR/CadastraFornecedor.php" target="Frame1"><i class="fa fa-caret-right"></i> Fisica </a></li>
+                    <li><a href="PRODUTOS/CadastraProdutos.php" target="Frame1"><i class="fa fa-caret-right"></i> Juridica </a></li>
+                    <li><a href="PRODUTOS/CarregarProdutosExel.php" target="Frame1"><i class="fa fa-caret-right"></i>Colaborador</a></li>	
+                    <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Documento </a></li>
+                    <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Seguimento </a></li>
+                    <li><a href="CLIENTES/CadastraClientes.php" target="Frame1"><i class="fa fa-caret-right"></i> Endereço </a></li>
                 </ul>
             </li>
-            
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-floppy-o"></i>
@@ -424,7 +426,7 @@
                 </ul>
             </li>   
 
-<!---------------------------------------------- -->
+            <!---------------------------------------------- -->
 
 
             <li class="header">Relatórios</li>

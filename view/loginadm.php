@@ -1,6 +1,6 @@
 <?php
-ob_start();
-session_start();
+//ob_start();
+//session_start();
 require_once '../includes/load__class__file_path_1.php';
 include_once './Config.php';
 
@@ -90,7 +90,7 @@ if (Util::verifica_sessao()) {
                     <div class="pull-right hidden-xs">
                         <b>Version</b> 1.0
                     </div>
-                    <strong>Copyright &copy;2017 <a href="http://www.centralmetadevendas.com.br">PauloCeami</a>.</strong> Todos os direitos reservados
+                    <strong>Copyright &copy;2020 <a href="http://www.centralmetadevendas.com.br">AllWork</a>.</strong> Todos os direitos reservados
                 </footer>
             </div>
             <!--  jquery js -->

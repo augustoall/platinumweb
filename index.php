@@ -1,10 +1,7 @@
 <?php
+if ($_POST) {
     ob_start();
     session_start();
-
-if ($_POST) {
-//    ob_start();
-//    session_start();
 
     $_SESSION["MENSAGEM"] = "";
 
@@ -226,7 +223,7 @@ if ($_POST) {
 
             <div class="row">
                 <div class="col-sm-12">
-                    <form class="form-signin" role="form" action="index.php" method="post">
+                    <form class="form-signin" role="form" action="index.php" method="POST">
                         <label for="inputEmail" class="sr-only">Email</label>
                         <input type="email" name="usu_email"  id="inputEmail" class="form-control" value="augustoall@gmail.com"  placeholder="Email" required autofocus>
                         <label for="inputPassword" class="sr-only">Senha</label>
@@ -236,11 +233,11 @@ if ($_POST) {
                     </form>
                     <?php
                     session_start();
-                    if ($_SESSION["MENSAGEM"] != ""):
+                    if (isset($_SESSION["MENSAGEM"]) != ""):
                         ?>
                         <div class="alert alert-info" role="alert">
                             <strong><?php
-                                echo $_SESSION["MENSAGEM"]
+                                echo $_SESSION["MENSAGEM"];
                                 ?>!</strong> 
                         </div>
                     <?php endif; ?>
