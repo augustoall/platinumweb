@@ -232,7 +232,7 @@ if ($_POST) {
                         <!-- p><a href="view/esqueciminhasenha.php"> esqueci minha senha</a></p -->
                     </form>
                     <?php
-                    session_start();
+                    //session_start();
                     if (isset($_SESSION["MENSAGEM"]) != ""):
                         ?>
                         <div class="alert alert-info" role="alert">

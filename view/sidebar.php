@@ -381,7 +381,7 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="PESSOA/CadastraPessoaBase.php" target="Frame1"><i class="fa fa-caret-right"></i> Base </a></li>
+                    <li><a href="PESSOA/CadastraPessoaBase.php" target="Frame1"><i class="fa fa-address-card-o"></i> Base </a></li>
                     <li><a href="FORNECEDOR/CadastraFornecedor.php" target="Frame1"><i class="fa fa-caret-right"></i> Fisica </a></li>
                     <li><a href="PRODUTOS/CadastraProdutos.php" target="Frame1"><i class="fa fa-caret-right"></i> Juridica </a></li>
                     <li><a href="PRODUTOS/CarregarProdutosExel.php" target="Frame1"><i class="fa fa-caret-right"></i>Colaborador</a></li>	
